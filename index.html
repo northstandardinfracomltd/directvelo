@@ -1,72 +1,1243 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- 
-      This is an HTML comment
-      You can write text in a comment and the content won't be visible in the page
-    -->
-
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="https://glitch.com/favicon.ico" />
-
-    <!--
-      This is the page head - it contains info the browser uses
-      Like the title, which appears on the browser tab but not inside the page
-      Further down you'll see the content that displays in the page
-    -->
-    <title>Hello World!</title>
-
-    <!-- The website stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
-
-    <!-- The website JavaScript file -->
-    <script src="/script.js" defer></script>
-  </head>
-  <body>
-    <!--
-      The body includes the content you see in the page
-      Each element is defined using tags, like this <div></div>
-      The attributes like class="wrapper" let us style elements in the CSS
-    -->
-    <div class="wrapper">
-      <div class="content" role="main">
-        <h1 class="title">Hello World!</h1>
-        <img
-          src="https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2Fillustration.svg?v=1618177344016"
-          class="illustration"
-          alt="Editor illustration"
-          title="Click the image!"
-        />
-        <div class="instructions">
-          <h2>Using this project</h2>
-          <p>
-            This is the Glitch <strong>Hello Website</strong> project. You can
-            use it to build your own site. Check out the code in the editor and open
-            the <span class="fileopener" data-file="TODO.md" data-line="0"
-              >TODO</span> for next steps!
-          </p>
-          <!--  🚧 TODO: ADD BUTTON HERE -->
-
-          <!-- Once you've added the button from TODO.md, click it in the page -->
-          <!-- Check out the function in script.js to see how it works -->
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+      <link rel="stylesheet" href="./snipped.css">
+   </head>
+  
+  
+  
+  
+  
+  <div id="top-bar" class="snipcss-SJFr1">
+  <div class="content">
+    <div class="cols-4-2 glue">
+      <div class="col">
+        <div class="hidden-sm">
+          <div class="versions">
+            <span class="country active">
+              <i class="f16 fr">
+              </i>
+            </span>
+            <a href="https://belgique.directvelo.com/" class="country">
+              <i class="f16 be">
+              </i>
+            </a>
+          </div>
         </div>
+        <ul class="worlds hidden-sm">
+          <li class="world orange active">
+            <a href="/" class="hover-orange">
+              Amateurs
+            </a>
+          </li>
+          <li class="world orange ">
+            <a href="/pros" class="hover-orange">
+              Pros
+            </a>
+          </li>
+          <li class="world orange ">
+            <a href="/femmes" class="hover-orange">
+              Femmes
+            </a>
+          </li>
+          <li class="world orange ">
+            <a href="/juniors" class="hover-orange">
+              Juniors
+            </a>
+          </li>
+          <li class="world orange ">
+            <a href="/piste" class="hover-orange">
+              Piste
+            </a>
+          </li>
+          <li class="world orange ">
+            <a href="/cyclo-cross" class="hover-orange">
+              Cyclo-cross
+            </a>
+          </li>
+          <li class="world orange ">
+            <a href="/cyclo-sport" class="hover-orange">
+              Cyclo sport
+            </a>
+          </li>
+          <li class="world orange ">
+            <a href="/vtt" class="hover-orange">
+              VTT
+            </a>
+          </li>
+        </ul>
+        <a href="#mobile-menu-modal" class="menu-toggle visible-sm" data-toggle="modal">
+          <i class="icon-bars">
+          </i>
+        </a>
+        <a href="/" class="visible-sm">
+          <div class="directvelo-logo ir">
+            DirectVelo
+          </div>
+        </a>
+      </div>
+      <div class="col text-right">
+        <form class="site-search">
+          <div class="search-bar site-search-bar hidden-sm">
+            <i class="icon icon-magnifier text-black">
+            </i>
+            <div class="autocomplete ">
+              <input type="text" placeholder="Rechercher une course, équipe, actualité..." class="typeahead">
+              <i class="fa fa-refresh fa-spin">
+              </i>
+              <i class="fa fa-info-circle" data-toggle="tooltip" title="" data-original-title="La recherche a été limitée, veuillez affiner votre recherche pour voir les autres résultats.">
+              </i>
+            </div>
+          </div>
+          <input type="submit" class="submit" value="OK">
+          <a href="#mobile-search-modal" class="site-search-icon visible-sm" data-toggle="modal">
+            <i class="icon icon-magnifier">
+            </i>
+          </a>
+        </form>
       </div>
     </div>
-    <!-- The footer holds our remix button — you can keep or delete it ✂ -->
-    <footer class="footer">
-      <div class="links"></div>
-      <a
-        class="btn--remix"
-        target="_top"
-        href="https://glitch.com/edit/#!/remix/glitch-hello-website"
-      >
-        <img
-          src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
-          alt=""
-        />
-        Remix on Glitch
-      </a>
+  </div>
+</div>
+
+  
+  
+  
+   <body>
+<div id="container" class="snipcss-UG5ta">
+    <h1 class="hidden">Coureur Ronan AUFFRET</h1>
+    <header id="header" role="banner">
+        <div class="cols-3 hidden-sm">
+            <div class="col">
+                <aside class="poster">
+                </aside>
+            </div>
+            <div class="col">
+                <a href="/" class="hidden-sm">
+                    <div class="directvelo-logo ir">DirectVelo</div>
+                </a>
+            </div>
+            <div class="col text-right">
+                <aside class="welcome" data-logged-in="0">
+                    <h2 class="hidden">Accès à l'espace membre</h2>
+                    <div class="welcome-out">
+                        <a href="#login-modal" class="welcome-login btn green" data-toggle="modal"><i class="icon-user"></i> Espace membre</a>
+                    </div>
+                </aside>
+                <div class="social-widgets">
+                    <a href="https://www.facebook.com/DirectVeloCom" rel="external" onclick="trackOutboundLink('https://www.facebook.com/DirectVeloCom');return false"><i class="fa fa-facebook-square"></i></a>
+                    <a href="https://twitter.com/directvelo" rel="external" onclick="trackOutboundLink('https://twitter.com/directvelo');return false"><i class="fa fa-twitter-square"></i></a>
+                    <a href="https://instagram.com/directvelo/" rel="external" onclick="trackOutboundLink('https://instagram.com/directvelo/');return false"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@DirectVeloTv" rel="external" onclick="trackOutboundLink('https://www.youtube.com/@DirectVeloTv');return false"><i class="fa fa-youtube-play"></i></a>
+                </div>
+            </div>
+        </div>
+        <nav id="main-menu" class="hidden-sm affix-top" role="navigation" data-spy="affix" data-offset-top="152">
+            <div class="content">
+                <h2 class="hidden">Menu principal</h2>
+                <ul class="menu-list" role="menu">
+                    <li class="first menu-item"><a href="/" class="menu-link"><i class="icon-home" title="Accueil"></i></a></li>
+                    <li class="menu-item"><a href="#" data-target="#news-submenu" class="menu-link"> Actualités </a></li>
+                    <li class="menu-item"><a href="/directs" class="menu-link"> Directs </a></li>
+                    <li class="menu-item"><a href="#" data-target="#season-submenu" class="menu-link"> Courses </a></li>
+                    <li class="active menu-item"><a href="#" data-target="#peloton-submenu" class="menu-link"> Peloton </a></li>
+                    <li class="menu-item"><a href="#" data-target="#challenge-submenu" class="menu-link"> Challenges </a></li>
+                    <li class="menu-item"><a href="/photos" class="menu-link"> Photos </a></li>
+                    <li class="menu-item"><a href="/videos" class="menu-link"> Vidéos </a></li>
+                    <li class="game-link menu-item"><a href="/jeu" class="menu-link">
+                            <picture><img src="https://cdn.glitch.global/06aa7566-fff9-4df5-9f92-58dce7fc9e1d/dv-manager-2023-w180.png?v=1704152733151" width="90" height="45" alt="DV Manager" loading="lazy"></picture>
+                        </a></li>
+                    <li class="menu-item"><a href="#" data-target="#static-submenu" class="menu-link"> DV </a></li>
+                    <li class="last menu-item"><a href="/page/7/boutique-directvelo" class="text-orange menu-link"> Boutique </a></li>
+                </ul>
+                <div id="news-submenu" class="submenu">
+                    <div class="news-section submenu-section">
+                        <h3 class="submenu-title">Actualités</h3>
+                        <ul>
+                            <li class="first menu-item"><a href="/actualites/categorie/34/interview" class="menu-link"> Interviews </a></li>
+                            <li class="menu-item"><a href="/actualites/categorie/1/resultats" class="menu-link"> Résultats </a></li>
+                            <li class="menu-item"><a href="/actualites/categorie/2/engages" class="menu-link"> Engagés / Partants </a></li>
+                            <li class="last menu-item"><a href="/actualites" class="menu-link"> Toute l'actualité </a></li>
+                        </ul>
+                    </div>
+                    <div class="dossiers-section submenu-section">
+                        <h3 class="submenu-title">Nos rubriques</h3>
+                        <ul>
+                            <li class="first menu-item"><a href="/actualites/categorie/70/la-grande-interview" class="menu-link">
+                                    <div class="news-category-small-70 ir">La Grande Interview</div>
+                                </a></li>
+                            <li class="menu-item"><a href="/actualites/categorie/76/on-a-retrouve" class="menu-link">
+                                    <div class="news-category-small-76 ir">On a retrouvé</div>
+                                </a></li>
+                            <li class="menu-item"><a href="/actualites/categorie/85/bon-a-savoir" class="menu-link">
+                                    <div class="news-category-small-85 ir">Bon à savoir</div>
+                                </a></li>
+                            <li class="menu-item"><a href="/actualites/categorie/86/livres" class="menu-link">
+                                    <div class="news-category-small-86 ir">Livres</div>
+                                </a></li>
+                            <li class="menu-item"><a href="/actualites/categorie/87/carte-postale" class="menu-link">
+                                    <div class="news-category-small-87 ir">Carte Postale</div>
+                                </a></li>
+                            <li class="menu-item"><a href="/actualites/categorie/130/mavic" class="menu-link">
+                                    <div class="news-category-small-130 ir">Mavic</div>
+                                </a></li>
+                            <li class="menu-item"><a href="/actualites/categorie/133/look" class="menu-link">
+                                    <div class="news-category-small-133 ir">Look</div>
+                                </a></li>
+                            <li class="last menu-item"><a href="/actualites/categorie/135/team-vercors" class="menu-link">
+                                    <div class="news-category-small-135 ir">Team Vercors</div>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="season-submenu" class="submenu">
+                    <div class="submenu-section">
+                        <h3 class="submenu-title">Courses</h3>
+                        <ul>
+                            <li class="first menu-item"><a href="/calendrier" class="menu-link"><i class="icon icon-calendar"></i> Calendrier </a></li>
+                            <li class="menu-item"><a href="/resultats" class="menu-link"><i class="icon icon-trophy"></i> Résultats </a></li>
+                            <li class="last menu-item"><a href="/coupe-de-france" class="menu-link"><i class="icon icon-bay"></i> Coupes de France </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="peloton-submenu" class="submenu">
+                    <div class="submenu-section">
+                        <h3 class="submenu-title">Peloton</h3>
+                        <ul>
+                            <li class="first menu-item"><a href="/coureurs" class="menu-link"><i class="icon icon-user"></i> Coureurs </a></li>
+                            <li class="menu-item"><a href="/equipes" class="menu-link"><i class="icon icon-jersey"></i> Équipes </a></li>
+                            <li class="last menu-item"><a href="/mutations" class="menu-link"><i class="icon icon-turn"></i> Mutations 2024 </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="challenge-submenu" class="submenu">
+                    <div class="title-section submenu-section">
+                        <h3 class="submenu-title">Challenges</h3>
+                    </div>
+                    <div class="logo-section submenu-section">
+                        <ul>
+                            <li class="first menu-item"><a href="/challenge" class="menu-link">
+                                    <picture title="Challenge BBB-DirectVelo"><img src="./images/fr-150.png" width="150" height="58" loading="lazy" alt="Challenge BBB-DirectVelo">
+                                        <figcaption>Challenge BBB-DirectVelo</figcaption>
+                                    </picture>
+                                </a></li>
+                            <li class="menu-item"><a href="/challenge/dames" class="menu-link">
+                                    <picture title="Challenge Lazer-DirectVelo Féminin"><img src="./images/women-150.png" width="150" height="58" loading="lazy" alt="Challenge Lazer-DirectVelo Féminin">
+                                        <figcaption>Challenge Lazer-DirectVelo Féminin</figcaption>
+                                    </picture>
+                                </a></li>
+                            <li class="menu-item"><a href="/challenge/juniors" class="menu-link">
+                                    <picture title="Challenge S1neo-DirectVelo Junior"><img src="./images/junior-150.png" width="150" height="58" loading="lazy" alt="Challenge S1neo-DirectVelo Junior">
+                                        <figcaption>Challenge S1neo-DirectVelo Junior</figcaption>
+                                    </picture>
+                                </a></li>
+                            <li class="menu-item"><a href="//belgique.directvelo.com/challenge" class="menu-link">
+                                    <picture title="Challenge Verge Sport-DirectVelo Belgique"><img src="./images/be-150.png" width="150" height="58" loading="lazy" alt="Challenge Verge Sport-DirectVelo Belgique">
+                                        <figcaption>Challenge Verge Sport-DirectVelo Belgique</figcaption>
+                                    </picture>
+                                </a></li>
+                            <li class="last menu-item"><a href="//belgique.directvelo.com/challenge/juniors" class="menu-link">
+                                    <picture title="Challenge VAN RYSEL-DirectVelo Junior Belgique"><img src="./images/be_junior-150.png" width="150" height="58" loading="lazy" alt="Challenge VAN RYSEL-DirectVelo Junior Belgique">
+                                        <figcaption>Challenge VAN RYSEL-DirectVelo Junior Belgique</figcaption>
+                                    </picture>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="static-submenu" class="submenu">
+                    <div class="submenu-section">
+                        <h3 class="submenu-title">DirectVelo</h3>
+                        <ul>
+                            <li class="first menu-item"><a href="/notre-equipe" class="menu-link"> Team DirectVelo </a></li>
+                            <li class="menu-item"><a href="/participez-au-projet" class="menu-link"> Participez au projet ! </a></li>
+                            <li class="menu-item"><a href="/association" class="menu-link"> Association </a></li>
+                            <li class="menu-item"><a href="/soiree-dv" class="menu-link"> Soirée DV </a></li>
+                            <li class="menu-item"><a href="/devenir-partenaire" class="menu-link"> Votre pub chez nous </a></li>
+                            <li class="last menu-item"><a href="/contact" class="menu-link"> Contact </a></li>
+                        </ul>
+                    </div>
+                    <div class="books-section submenu-section">
+                        <h3 class="submenu-title">Les éditions DirectVelo</h3>
+                        <div class="dv-page dv-books">
+                            <a href="https://boutique.directvelo.com" rel="external" class="dv-link">
+                                <div class="site-books"></div>
+                                <span class="text-orange">Découvrir tous nos livres !</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="after-menu"></div>
+
+    </header>
+    <main id="content" role="main">
+        <div class="sheet">
+            <div class="sheet-top">
+                <div class="breadcrumbs ">
+                    <div class="breadcrumbs-content ">
+                        <a href="/coureurs" class="btn white">Tous les coureurs</a>
+                        <div class="btn black">Coureur</div>
+                    </div>
+                    <div class="peloton-sheet-counts spacer">
+                    </div>
+                </div>
+            </div>
+            <article id="rider" class="peloton-entity">
+                <time datetime="2024-01-02CET00:40:14" pubdate="pubdate" class="hidden">20240102 12:40 AM</time>
+                <header class="sheet-header ">
+                    <div class="layout-sidebar">
+                        <div class="main">
+                            <div class="card">
+                                <figure class="framed rounded rider-picture card-image">
+                                    <div class="framed-inner rounded-inner">
+                                        <picture><img src="./images/5c0c4ffe62adc.JPG" alt="" width="auto" height="auto" loading="lazy"></picture>
+                                    </div>
+                                    <figcaption>Portrait de Ronan AUFFRET</figcaption>
+                                </figure>
+                                <div class="card-details">
+                                    <h1><img class="imgflag" src="https://cdn.glitch.global/06aa7566-fff9-4df5-9f92-58dce7fc9e1d/Capture%20d%E2%80%99e%CC%81cran%202024-01-02%20a%CC%80%2000.53.43.png?v=1704153227165" alt="" width="40px" height="auto" loading="lazy"> Ronan <strong class="uppercase">Auffret</strong>
+                                    </h1>
+                                    <p class="rider-dates"> Né le 16/04/2001 (22 ans) </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sidebar">
+                            <div class="stats key-elements">
+                                <div class="key-element invisible"></div>
+                                <div class="key-element">
+                                    <div class="key-element-title">Victoires 2024</div>
+                                    <div class="key-element-content">
+                                        <strong>0</strong>
+                                    </div>
+                                    <i class="background-icon icon-trophy"></i>
+                                </div>
+                                <div class="key-element">
+                                    <div class="key-element-title">Podiums 2024</div>
+                                    <div class="key-element-content">
+                                        <em>0</em>
+                                    </div>
+                                    <i class="background-icon icon-podium"></i>
+                                </div>
+                                <div class="stats-dv-manager key-element" data-toggle="tooltip" title="" data-original-title="Nombre d'équipes de DV Manager<br />ayant recruté ce coureur pour la saison 2024">
+                                    <div class="key-element-content">
+                                        <em>19</em>
+                                    </div>
+                                    <i class="background-icon <img src=" https:="" cdn.directvelo.com="" images="" app="" dv-manager-2023.png?1702993285"="" width="90" alt="DV Manager">"&gt;</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div class="sheet-body layout-sidebar">
+                    <div class="main">
+                        <div class="rider-profile block">
+                            <section class="palmares">
+                                <header class="title-lined">
+                                    <div class="title-lined-inner spacer">
+                                        <h2>
+                                            <i class="icon-palmares"></i>
+                                            <small class="smaller-9">Ses <span class="uppercase text-blue">principales</span></small><br>
+                                            <span class="uppercase semibold">performances</span>
+                                        </h2>
+                                    </div>
+                                </header>
+                                <div class="slidable vertical">
+                                    <p class="loading-message"><i class="fa fa-circle-o-notch fa-spin text-gray"></i>&nbsp;&nbsp;Chargement en cours...</p>
+                                    <div class="slidable-content style-6ahK7" id="style-6ahK7">
+                                        <ul class="slidable-slides">
+                                            <li class="palmares-item" data-page="">
+                                                <em> 7<sup>e</sup></em> <a href="/epreuve/23624/jugon-les-lacs-arguenon-vallee-verte-2019" class="race-link">Jugon-les-Lacs Arguenon-Vallée Verte - étape 1</a>
+                                                <em class="palmares-years">2019</em>
+                                            </li>
+                                            <li class="palmares-item">
+                                                <a href="/epreuve/25284/championnat-d-ile-de-france-juniors-2019" class="race-link">Championnat d'Ile-de-France - Juniors</a>
+                                                <em class="palmares-years">2019</em>
+                                            </li>
+                                            <li class="palmares-item">
+                                                <em> 12<sup>e</sup></em> <a href="/epreuve/23624/jugon-les-lacs-arguenon-vallee-verte-2019" class="race-link">Jugon-les-Lacs Arguenon-Vallée Verte</a>
+                                                <em class="palmares-years">2019</em>
+                                            </li>
+                                            <li class="palmares-item">
+                                                <em> 4<sup>e</sup></em> <a href="/epreuve/20395/tour-de-loue-brulon-noyen-2018" class="race-link">Tour de Loué-Brulon-Noyen - étape 2</a>
+                                                <em class="palmares-years">2018</em>
+                                            </li>
+                                            <li class="palmares-item">
+                                                <em> 7<sup>e</sup></em> <a href="/epreuve/20395/tour-de-loue-brulon-noyen-2018" class="race-link">Tour de Loué-Brulon-Noyen</a>
+                                                <em class="palmares-years">2018</em>
+                                            </li>
+                                            <li class="palmares-item" data-page="">
+                                                <em> 10<sup>e</sup></em> <a href="/epreuve/23573/tour-de-l-eure-juniors-2019" class="race-link">Tour de l'Eure Juniors</a>
+                                                <em class="palmares-years">2019</em>
+                                            </li>
+                                            <li class="palmares-item">
+                                                <em> 8<sup>e</sup></em> <a href="/epreuve/23573/tour-de-l-eure-juniors-2019" class="race-link">Tour de l'Eure Juniors - étape 3</a>
+                                                <em class="palmares-years">2019</em>
+                                            </li>
+                                            <li class="palmares-item">
+                                                <em> 8<sup>e</sup></em> <a href="/epreuve/23573/tour-de-l-eure-juniors-2019" class="race-link">Tour de l'Eure Juniors - étape 1</a>
+                                                <em class="palmares-years">2019</em>
+                                            </li>
+                                            <li class="palmares-item">
+                                                <em> 12<sup>e</sup></em> <a href="/epreuve/24139/grand-prix-fernand-durel-2019" class="race-link">Grand Prix Fernand Durel</a>
+                                                <em class="palmares-years">2019</em>
+                                            </li>
+                                            <li class="palmares-item">
+                                                <em> 13<sup>e</sup></em> <a href="/epreuve/24139/grand-prix-fernand-durel-2019" class="race-link">Grand Prix Fernand Durel - étape 2</a>
+                                                <em class="palmares-years">2019</em>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="slidable-nav center blue style-HgTdy" id="style-HgTdy">
+                                        <a class="btn-arrow prev disabled">&lt;</a>
+                                        <a class="btn-arrow next">&gt;</a>
+                                    </div>
+                                    <div class="slidable-tmp"></div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="bio-block block">
+                        </div>
+                        <div id="challenge" class="block">
+                            <section class="challenge">
+                                <header class="challenge-header">
+                                    <h2 class="hidden">Classement Challenge DirectVelo</h2>
+                                    <div class="slidable horizontal">
+                                        <p class="loading-message"><i class="fa fa-circle-o-notch fa-spin text-gray"></i>&nbsp;&nbsp;Chargement en cours...</p>
+                                        <div class="slidable-content style-T91Ft" id="style-T91Ft">
+                                            <ul class="career slidable-slides style-x4FxA" role="tablist" id="style-x4FxA">
+                                                <li class="career-slide slidable-slide active" data-page="">
+                                                    <a href="#challenge-2023" class="nav-link" data-toggle="tab" role="tab" data-year="2023">
+                                                        <div class="career-season">2023</div>
+                                                        <div class="career-team"> US Métro Transports </div>
+                                                    </a>
+                                                </li>
+                                                <li class="career-slide slidable-slide ">
+                                                    <a href="#challenge-2022" class="nav-link" data-toggle="tab" role="tab" data-year="2022">
+                                                        <div class="career-season">2022</div>
+                                                        <div class="career-team"> US Métro Transports </div>
+                                                    </a>
+                                                </li>
+                                                <li class="career-slide slidable-slide ">
+                                                    <a href="#challenge-2021" class="nav-link" data-toggle="tab" role="tab" data-year="2021">
+                                                        <div class="career-season">2021</div>
+                                                        <div class="career-team"> US Métro Transports </div>
+                                                    </a>
+                                                </li>
+                                                <li class="career-slide slidable-slide ">
+                                                    <a href="#challenge-2020" class="nav-link" data-toggle="tab" role="tab" data-year="2020">
+                                                        <div class="career-season">2020</div>
+                                                        <div class="career-team"> VC Rouen 76 </div>
+                                                    </a>
+                                                </li>
+                                                <li class="career-slide slidable-slide " data-page="">
+                                                    <a href="#challenge-2019" class="nav-link" data-toggle="tab" role="tab" data-year="2019">
+                                                        <div class="career-season">2019</div>
+                                                        <div class="career-team"> US Métro Transports Junior, Team Podiocom CC </div>
+                                                    </a>
+                                                </li>
+                                                <li class="career-slide slidable-slide ">
+                                                    <a href="#challenge-2018" class="nav-link" data-toggle="tab" role="tab" data-year="2018">
+                                                        <div class="career-season">2018</div>
+                                                        <div class="career-team"> US Métro Transports Junior </div>
+                                                    </a>
+                                                </li>
+                                                <li class="career-slide slidable-slide ">
+                                                    <a href="#challenge-2017" class="nav-link" data-toggle="tab" role="tab" data-year="2017">
+                                                        <div class="career-season">2017</div>
+                                                        <div class="career-team"> US Métro Transports Junior </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="slidable-nav center black spacer style-Eoos3" id="style-Eoos3">
+                                            <a class="btn-arrow prev disabled">&lt;</a>
+                                            <a class="btn-arrow next">&gt;</a>
+                                        </div>
+                                        <div class="slidable-tmp"></div>
+                                    </div>
+                                </header>
+                                <div class="challenge-body tab-content">
+                                    <div class="toggle-btn-wrapper spacer">
+                                        <a href="#" class="toggle-btn open" role="button"></a>
+                                    </div>
+                                    <div id="challenge-2023" class="challenge-year tab-pane active" data-year="2023" role="tabpanel">
+                                        <section></section>
+                                    </div>
+                                    <div id="challenge-2022" class="challenge-year tab-pane " data-year="2022" role="tabpanel">
+                                    </div>
+                                    <div id="challenge-2021" class="challenge-year tab-pane " data-year="2021" role="tabpanel">
+                                    </div>
+                                    <div id="challenge-2020" class="challenge-year tab-pane " data-year="2020" role="tabpanel">
+                                    </div>
+                                    <div id="challenge-2019" class="challenge-year tab-pane " data-year="2019" role="tabpanel">
+                                    </div>
+                                    <div id="challenge-2018" class="challenge-year tab-pane " data-year="2018" role="tabpanel">
+                                    </div>
+                                    <div id="challenge-2017" class="challenge-year tab-pane " data-year="2017" role="tabpanel">
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div id="results" class="block">
+                            <section class="results">
+                                <header class="results-header">
+                                    <h2 class="results-title">Tous les résultats</h2>
+                                    <p class="results-intro"></p>
+                                </header>
+                                <div class="results-body">
+                                    <div class="nav-tabs">
+                                        <ul class="nav-list" role="tablist">
+                                            <li class="nav-tab active">
+                                                <a href="#results-2023" class="nav-link" data-toggle="tab" role="tab">2023</a>
+                                            </li>
+                                            <li class="nav-tab ">
+                                                <a href="#results-2022" class="nav-link" data-toggle="tab" role="tab">2022</a>
+                                            </li>
+                                            <li class="nav-tab ">
+                                                <a href="#results-2021" class="nav-link" data-toggle="tab" role="tab">2021</a>
+                                            </li>
+                                            <li class="nav-tab ">
+                                                <a href="#results-2020" class="nav-link" data-toggle="tab" role="tab">2020</a>
+                                            </li>
+                                            <li class="nav-tab ">
+                                                <a href="#results-2019" class="nav-link" data-toggle="tab" role="tab">2019</a>
+                                            </li>
+                                            <li class="nav-tab ">
+                                                <a href="#results-2018" class="nav-link" data-toggle="tab" role="tab">2018</a>
+                                            </li>
+                                            <li class="nav-tab ">
+                                                <a href="#results-2017" class="nav-link" data-toggle="tab" role="tab">2017</a>
+                                            </li>
+                                            <li class="nav-tab ">
+                                                <a href="#results-cyclo-cross" class="nav-link no-transform" data-toggle="tab" role="tab">Cyclo-cross</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-content">
+                                        <div id="results-2023" class="results-season tab-pane active" data-year="2023" role="tabpanel">
+                                            <section>
+                                                <h3 class="hidden">Résultats saison 2023</h3>
+                                                <p class="empty-message">Aucun résultat n'a été trouvé.</p>
+                                            </section>
+                                        </div>
+                                        <div id="results-2022" class="results-season tab-pane" data-year="2022" role="tabpanel">
+                                        </div>
+                                        <div id="results-2021" class="results-season tab-pane" data-year="2021" role="tabpanel">
+                                        </div>
+                                        <div id="results-2020" class="results-season tab-pane" data-year="2020" role="tabpanel">
+                                        </div>
+                                        <div id="results-2019" class="results-season tab-pane" data-year="2019" role="tabpanel">
+                                        </div>
+                                        <div id="results-2018" class="results-season tab-pane" data-year="2018" role="tabpanel">
+                                        </div>
+                                        <div id="results-2017" class="results-season tab-pane" data-year="2017" role="tabpanel">
+                                        </div>
+                                        <div id="results-cyclo-cross" class="results-season tab-pane" data-year="cyclo" role="tabpanel">
+                                            <section>
+                                                <h3 class="hidden">Résultats Cyclo-cross</h3>
+                                                <p class="results-counts">
+                                                    <span class="text-orange">1 victoire</span> - 5 podiums
+                                                </p>
+                                                <div class="results-wrapper">
+                                                    <table class="results-table table-alternate" data-days="0" data-page="1" data-nb-pages="2">
+                                                        <thead>
+                                                            <tr>
+                                                                <th class="date">Date</th>
+                                                                <th class="rank selected">Place</th>
+                                                                <th class="race">Course</th>
+                                                                <th class="category">Catégorie</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1544223600"> <time datetime="2018-12-08CET00:00:00">08/12/2018</time>
+                                                                </td>
+                                                                <td class="rank text-orange">1</td>
+                                                                <td class="race"> <a href="/epreuve/22615/cyclo-cross-de-troyes-rosieres-juniors-2018" class="race-link">Cyclo-cross de Troyes-Rosières Juniors</a>
+                                                                </td>
+                                                                <td class="category">Juniors</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1546163100"> <time datetime="2018-12-30CET10:45:00">30/12/2018</time>
+                                                                </td>
+                                                                <td class="rank ">2</td>
+                                                                <td class="race"> <a href="/epreuve/22710/coupe-de-france-de-cyclo-cross-flamanville-juniors-2018" class="race-link">Coupe de France de cyclo-cross - Flamanville - Juniors</a>
+                                                                </td>
+                                                                <td class="category">Cyclo-cross</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1512294300"> <time datetime="2017-12-03CET10:45:00">03/12/2017</time>
+                                                                </td>
+                                                                <td class="rank ">2</td>
+                                                                <td class="race"> <a href="/epreuve/18277/coupe-de-france-de-cyclo-cross-jablines-juniors-2017" class="race-link">Coupe de France de cyclo-cross - Jablines - Juniors</a>
+                                                                </td>
+                                                                <td class="category">Cyclo-cross</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1547371800"> <time datetime="2019-01-13CET10:30:00">13/01/2019</time>
+                                                                </td>
+                                                                <td class="rank ">3</td>
+                                                                <td class="race"> <a href="/epreuve/22716/championnat-de-france-de-cyclo-cross-juniors-2019" class="race-link">Championnat de France de cyclo-cross - Juniors</a>
+                                                                </td>
+                                                                <td class="category">Championnat</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1540677600"> <time datetime="2018-10-28CEST00:00:00">28/10/2018</time>
+                                                                </td>
+                                                                <td class="rank ">3</td>
+                                                                <td class="race"> <a href="/epreuve/22236/cyclo-cross-de-jablines-juniors-2018" class="race-link">Cyclo-cross de Jablines - Juniors</a>
+                                                                </td>
+                                                                <td class="category">Juniors</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1666522800"> <time datetime="2022-10-23CEST13:00:00">23/10/2022</time>
+                                                                </td>
+                                                                <td class="rank ">6</td>
+                                                                <td class="race"> <a href="/epreuve/37137/coupe-de-france-de-cyclo-cross-nommay-espoirs-2-2022" class="race-link">Coupe de France de cyclo-cross - Nommay - Espoirs #2</a>
+                                                                </td>
+                                                                <td class="category">Cyclo-cross</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1578752100"> <time datetime="2020-01-11CET15:15:00">11/01/2020</time>
+                                                                </td>
+                                                                <td class="rank ">6</td>
+                                                                <td class="race"> <a href="/epreuve/27103/championnat-de-france-de-cyclo-cross-espoirs-2020" class="race-link">Championnat de France de cyclo-cross - Espoirs</a>
+                                                                </td>
+                                                                <td class="category">Championnat</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1539506700"> <time datetime="2018-10-14CEST10:45:00">14/10/2018</time>
+                                                                </td>
+                                                                <td class="rank ">6</td>
+                                                                <td class="race"> <a href="/epreuve/22336/coupe-de-france-de-cyclo-cross-razes-juniors-2018" class="race-link">Coupe de France de cyclo-cross - Razès - Juniors</a>
+                                                                </td>
+                                                                <td class="category">Cyclo-cross</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1572781500"> <time datetime="2019-11-03CET12:45:00">03/11/2019</time>
+                                                                </td>
+                                                                <td class="rank ">7</td>
+                                                                <td class="race"> <a href="/epreuve/26822/coupe-de-france-de-cyclo-cross-andrezieux-boutheon-espoirs-2019" class="race-link">Coupe de France de cyclo-cross - Andrézieux-Bouthéon - Espoirs</a>
+                                                                </td>
+                                                                <td class="category">Cyclo-cross</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1636890900"> <time datetime="2021-11-14CET12:55:00">14/11/2021</time>
+                                                                </td>
+                                                                <td class="rank ">10</td>
+                                                                <td class="race"> <a href="/epreuve/33391/coupe-de-france-de-cyclo-cross-bagnoles-de-l-orne-espoirs-2-2021" class="race-link">Coupe de France de cyclo-cross - Bagnoles-de-l'Orne - Espoirs #2</a>
+                                                                </td>
+                                                                <td class="category">Cyclo-cross</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1610272800"> <time datetime="2021-01-10CET11:00:00">10/01/2021</time>
+                                                                </td>
+                                                                <td class="rank ">10</td>
+                                                                <td class="race"> <a href="/epreuve/30726/championnat-de-france-de-cyclo-cross-espoirs-2021" class="race-link">Championnat de France de cyclo-cross - Espoirs</a>
+                                                                </td>
+                                                                <td class="category">Championnat</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1508057100"> <time datetime="2017-10-15CEST10:45:00">15/10/2017</time>
+                                                                </td>
+                                                                <td class="rank ">10</td>
+                                                                <td class="race"> <a href="/epreuve/18089/coupe-de-france-de-cyclo-cross-besancon-juniors-2017" class="race-link">Coupe de France de cyclo-cross - Besançon - Juniors</a>
+                                                                </td>
+                                                                <td class="category">Cyclo-cross</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1670154900"> <time datetime="2022-12-04CET12:55:00">04/12/2022</time>
+                                                                </td>
+                                                                <td class="rank ">11</td>
+                                                                <td class="race"> <a href="/epreuve/37654/coupe-de-france-de-cyclo-cross-troyes-espoirs-2-2022" class="race-link">Coupe de France de cyclo-cross - Troyes - Espoirs #2</a>
+                                                                </td>
+                                                                <td class="category">Cyclo-cross</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1668294000"> <time datetime="2022-11-13CET00:00:00">13/11/2022</time>
+                                                                </td>
+                                                                <td class="rank ">12</td>
+                                                                <td class="race"> <a href="/epreuve/37245/cyclo-cross-d-auxerre-2022" class="race-link">Cyclo-cross d'Auxerre</a>
+                                                                </td>
+                                                                <td class="category">Cyclo-cross</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1668945300"> <time datetime="2022-11-20CET12:55:00">20/11/2022</time>
+                                                                </td>
+                                                                <td class="rank ">13</td>
+                                                                <td class="race"> <a href="/epreuve/37413/coupe-de-france-de-cyclo-cross-camors-espoirs-2-2022" class="race-link">Coupe de France de cyclo-cross - Camors - Espoirs #2</a>
+                                                                </td>
+                                                                <td class="category">Cyclo-cross</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1633257600"> <time datetime="2021-10-03CEST12:40:00">03/10/2021</time>
+                                                                </td>
+                                                                <td class="rank ">16</td>
+                                                                <td class="race"> <a href="/epreuve/33154/coupe-de-france-de-cyclo-cross-pierric-espoirs-2-2021" class="race-link">Coupe de France de cyclo-cross - Pierric - Espoirs #2</a>
+                                                                </td>
+                                                                <td class="category">Cyclo-cross</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1570963500"> <time datetime="2019-10-13CEST12:45:00">13/10/2019</time>
+                                                                </td>
+                                                                <td class="rank ">17</td>
+                                                                <td class="race"> <a href="/epreuve/26741/coupe-de-france-de-cyclo-cross-la-meziere-espoirs-2019" class="race-link">Coupe de France de cyclo-cross - La Mézière - Espoirs</a>
+                                                                </td>
+                                                                <td class="category">Cyclo-cross</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1578092400"> <time datetime="2020-01-04CET00:00:00">04/01/2020</time>
+                                                                </td>
+                                                                <td class="rank ">18</td>
+                                                                <td class="race"> <a href="/epreuve/27971/cyclo-cross-de-troyes-rosieres-2020" class="race-link">Cyclo-cross de Troyes-Rosières</a>
+                                                                </td>
+                                                                <td class="category">Cyclo-cross</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1515919800"> <time datetime="2018-01-14CET09:50:00">14/01/2018</time>
+                                                                </td>
+                                                                <td class="rank ">18</td>
+                                                                <td class="race"> <a href="/epreuve/19145/championnat-de-france-de-cyclo-cross-juniors-hommes-2018" class="race-link">Championnat de France de cyclo-cross - Juniors Hommes</a>
+                                                                </td>
+                                                                <td class="category">Championnat</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1545814800"> <time datetime="2018-12-26CET10:00:00">26/12/2018</time>
+                                                                </td>
+                                                                <td class="rank ">20</td>
+                                                                <td class="race"> <a href="/epreuve/22459/cc-heusden-zolder-coupe-du-monde-juniors-2018" class="race-link">CC - Heusden-Zolder - Coupe du Monde Juniors</a>
+                                                                </td>
+                                                                <td class="category">Coupe du Monde</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1633180500"> <time datetime="2021-10-02CEST15:15:00">02/10/2021</time>
+                                                                </td>
+                                                                <td class="rank ">21</td>
+                                                                <td class="race"> <a href="/epreuve/33149/coupe-de-france-de-cyclo-cross-pierric-elites-et-espoirs-1-2021" class="race-link">Coupe de France de cyclo-cross - Pierric - Elites et Espoirs #1</a>
+                                                                </td>
+                                                                <td class="category">Cyclo-cross</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1635072900"> <time datetime="2021-10-24CEST12:55:00">24/10/2021</time>
+                                                                </td>
+                                                                <td class="rank ">22</td>
+                                                                <td class="race"> <a href="/epreuve/33293/coupe-de-france-de-cyclo-cross-quelneuc-espoirs-2-2021" class="race-link">Coupe de France de cyclo-cross - Quelneuc - Espoirs #2</a>
+                                                                </td>
+                                                                <td class="category">Cyclo-cross</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1541929500"> <time datetime="2018-11-11CET10:45:00">11/11/2018</time>
+                                                                </td>
+                                                                <td class="rank ">22</td>
+                                                                <td class="race"> <a href="/epreuve/22396/coupe-de-france-de-cyclo-cross-pierric-juniors-2018" class="race-link">Coupe de France de cyclo-cross - Pierric - Juniors</a>
+                                                                </td>
+                                                                <td class="category">Cyclo-cross</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1673706600"> <time datetime="2023-01-14CET15:30:00">14/01/2023</time>
+                                                                </td>
+                                                                <td class="rank ">23</td>
+                                                                <td class="race"> <a href="/epreuve/38141/championnat-de-france-de-cyclo-cross-u23-hommes-2023" class="race-link">Championnat de France de cyclo-cross - U23 Hommes</a>
+                                                                </td>
+                                                                <td class="category">Championnat</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1609596900"> <time datetime="2021-01-02CET15:15:00">02/01/2021</time>
+                                                                </td>
+                                                                <td class="rank ">23</td>
+                                                                <td class="race"> <a href="/epreuve/30531/troyes-cyclocross-uci-2021" class="race-link">Troyes Cyclocross UCI</a>
+                                                                </td>
+                                                                <td class="category">Cyclo-cross</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1579429800"> <time datetime="2020-01-19CET11:30:00">19/01/2020</time>
+                                                                </td>
+                                                                <td class="rank ">24</td>
+                                                                <td class="race"> <a href="/epreuve/27109/cc-nommay-coupe-du-monde-espoirs-2020" class="race-link">CC - Nommay - Coupe du Monde - Espoirs</a>
+                                                                </td>
+                                                                <td class="category">Coupe du Monde</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1516525200"> <time datetime="2018-01-21CET10:00:00">21/01/2018</time>
+                                                                </td>
+                                                                <td class="rank ">25</td>
+                                                                <td class="race"> <a href="/epreuve/18147/cc-nommay-coupe-du-monde-juniors-2018" class="race-link">CC - Nommay - Coupe du Monde Juniors</a>
+                                                                </td>
+                                                                <td class="category">Cyclo-cross</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1639233000"> <time datetime="2021-12-11CET15:30:00">11/12/2021</time>
+                                                                </td>
+                                                                <td class="rank ">26</td>
+                                                                <td class="race"> <a href="/epreuve/33876/coupe-de-france-de-cyclo-cross-troyes-elites-et-espoirs-1-2021" class="race-link">Coupe de France de cyclo-cross - Troyes - Elites et Espoirs #1</a>
+                                                                </td>
+                                                                <td class="category">Cyclo-cross</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1549101600"> <time datetime="2019-02-02CET11:00:00">02/02/2019</time>
+                                                                </td>
+                                                                <td class="rank ">27</td>
+                                                                <td class="race"> <a href="/epreuve/23783/championnat-du-monde-de-cyclo-cross-juniors-2019" class="race-link">Championnat du Monde de cyclo-cross - Juniors</a>
+                                                                </td>
+                                                                <td class="category">Cyclo-cross</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="date" data-sort-value="1510479900"> <time datetime="2017-11-12CET10:45:00">12/11/2017</time>
+                                                                </td>
+                                                                <td class="rank ">27</td>
+                                                                <td class="race"> <a href="/epreuve/18265/coupe-de-france-de-cyclo-cross-la-meziere-juniors-2017" class="race-link">Coupe de France de cyclo-cross - La Mézière - Juniors</a>
+                                                                </td>
+                                                                <td class="category">Cyclo-cross</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <footer>
+                                                    <a href="#" class="results-more-link">Voir <i class="plus-sign orange"></i> de résultats</a>
+                                                </footer>
+                                            </section>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="block">
+                        </div>
+                        <div class="block">
+                            <div id="taboola-below-article-thumbnails" class=" trc_related_container trc_spotlight_widget trc_elastic trc_elastic_thumbnails-a " data-placement-name="Below Article Thumbnails" observeid="tbl-observe-6">
+                                <div class="trc_rbox_container">
+                                    <div>
+                                        <div id="trc_wrapper_88570" class="trc_rbox thumbnails-a trc-content-sponsored  style-lsFyo">
+                                            <div id="trc_header_88570" class="trc_rbox_header trc_rbox_border_elm">
+                                                <div class="trc_header_ext">
+                                                    <div class="logoDiv link-disclosure  attribution-disclosure-link-sponsored"><a class="trc_desktop_disclosure_link trc_attribution_position_top" rel="nofollow sponsored noopener" href="https://popup.taboola.com/fr/?template=colorbox&amp;utm_source=lagardere-directvelo&amp;utm_medium=referral&amp;utm_content=thumbnails-a:Below Article Thumbnails:" target="_blank"><span>Contenus Sponsorisés</span></a><a class="trc_mobile_disclosure_link trc_attribution_position_top" rel="nofollow sponsored noopener" href="https://popup.taboola.com/fr/?template=colorbox&amp;utm_source=lagardere-directvelo&amp;utm_medium=referral&amp;utm_content=thumbnails-a:Below Article Thumbnails:" target="_blank"><span>Contenus Sponsorisés</span></a></div>
+                                                    <div class="logoDiv link-disclosure  attribution-disclosure-link-hybrid"><a class="trc_desktop_disclosure_link trc_attribution_position_top" rel="nofollow sponsored noopener" href="https://popup.taboola.com/fr/?template=colorbox&amp;utm_source=lagardere-directvelo&amp;utm_medium=referral&amp;utm_content=thumbnails-a:Below Article Thumbnails:" target="_blank"><span>Contenus Sélectionnés</span></a><a class="trc_mobile_disclosure_link trc_attribution_position_top" rel="nofollow sponsored noopener" href="https://popup.taboola.com/fr/?template=colorbox&amp;utm_source=lagardere-directvelo&amp;utm_medium=referral&amp;utm_content=thumbnails-a:Below Article Thumbnails:" target="_blank"><span>Contenus Sélectionnés</span></a></div>
+                                                </div><span class="trc_rbox_header_span">A lire aussi</span>
+                                            </div>
+                                            <div id="outer_88570" class="trc_rbox_outer">
+                                                <div id="rbox-c2m" class="trc_rbox_div trc_rbox_border_elm">
+                                                    <div id="internal_trc_88570">
+                                                        <div observeid="tbl-observe-0 tbl-observe-7" data-item-id="~~V1~~5308719943623159688~~klnJhnoM8Xt7uT2MlyctTPoYpmIZpzvoWj7VypvsO1pw6cLzOYgYTH58zK8cIqqSJCM26C8diHmJzDLFuqYdZHD9_nLvUUv928nhJ3HJ-Uc84swZmRfxelM2wnqNjUr_TS8Maux2jWC1gRU3nx5A7qYrUxfsxaffgxnLdeUSfQM" data-item-title="Vous avez trop de graisse abdominale ? (Mangez ceci avant le petit-déjeuner)" data-item-thumb="http://cdn.taboola.com/libtrc/static/thumbnails/d8196bbfa7c979a5a7ff6e5c3ca5e102.png" data-item-syndicated="true" class="videoCube trc_spotlight_item origin-default thumbnail_top syndicatedItem textItem videoCube_1_child trc-first-recommendation trc-spotlight-first-recommendation  trc_excludable "><a attributionsrc="" title="Vous avez trop de graisse abdominale ? (Mangez ceci avant le petit-déjeuner)" href="https://shefence-citional.com/bb570e3c-a4df-4bbc-9872-cf8b741504d2" rel="nofollow noopener sponsored" target="_blank" class=" item-thumbnail-href " slot="thumbnail">
+                                                                <div class="thumbBlock_holder"><span class="thumbBlock style-oaRq1" id="style-oaRq1"><span class="thumbnail-overlay"></span><span class="branding">NutraBurn</span><span class="static-text top-right"></span></span>
+                                                                    <div class="videoCube_aspect"></div>
+                                                                </div>
+                                                            </a><a attributionsrc="" title="Vous avez trop de graisse abdominale ? (Mangez ceci avant le petit-déjeuner)" href="https://shefence-citional.com/bb570e3c-a4df-4bbc-9872-cf8b741504d2" rel="nofollow noopener sponsored" target="_blank" class=" item-label-href "><span class="video-label-box trc-main-label "><span class="video-label video-title trc_ellipsis  style-UO5IE" slot="title" id="style-UO5IE">Vous avez trop de graisse abdominale ? (Mangez ceci avant le petit-déjeuner)</span><span class="branding" slot="branding">NutraBurn</span></span></a>
+                                                            <div class=" trc_user_exclude_btn " title="Supprimer ce contenu"></div>
+                                                            <div class=" trc_exclude_overlay trc_fade "></div>
+                                                            <div class=" trc_undo_btn ">Annuler</div>
+                                                        </div>
+                                                        <div observeid="tbl-observe-1 tbl-observe-8" data-item-id="~~V1~~75772712943749008~~2-_TeeVHTvfPkx6t76wrXiJ6mTtG2vrRk9i-dEp1Irz7TKJy0RYs2yJMGvmh9dyJUugDV309_suhA0SL0UIq8F3qB_E8CtbzG6gZQD3huGdD6xhNbrqYiPJkzNqEqO5Djy1sQkL2RevOX7nLCN-4GKlE67z9c_akpKmkVcLvlvkDxu2z65Lr5tlPYLV5iE9y3BRfvFyp7my3fIgFr-8HxW_kdw1r3iN4VZRTx9PvvAHZFcBpKDi6bX5RBP_D2wBX6v-0ykGIWObtqR6_krzOI-brobLaNgyenRQnXF7tqg1Se82SSYuZGeR2XZDBaF1DmRTKs4n3rd1x1EIPgRy2rUpju-rM4GqXjGNBq4xNtjvQ2KqCva4dkRoPvOk2qKvOcP3vvs3kOL04WEAD5LY_o8CZebulaE-AUZ5Vkmp5QXExHDZznqUdatIQd-Z6o-idqXf8c1OimUnmR0qIkdOdnzrSRQup_FvebHPkk88iM1mR2aMZS4JKwinSzzMOLQKpujn1tIG3iXlwA0YJKtDC9Dx9RB_SRo0FIHSLPW4r1Nb1CBor42A2Dq3_UAz9Bgd9M2cmroX1JaXxiWjvtDtJ81usOZ7RWoPIHBIIIGRrbTeYiBv3hKyb9mNAtr5Q97iJdzZgDjoYQqx7HIx3mJXckbYn8sIJLf9NfOLSC205NTBea3O9dwwWXn5oZJZkt8RdqgyrlUgKAEU1gsJX1anQZvJugmoyKdP_2M5c-hfDs755Yi8uaS2QbN4yqFRxdcGXla37Gj1siPVgUwOqK2-e4YrM84_29TRcY3UcBya0PbRpRxhFAeJ5g2QqzSwtt_8oOqe4y_s_ZTscB7gb5SulIVz9scmc70_X4p8MiXdi8HIUnjZ4s0B8aPTexzGDhhzJLK2xD8-K5NvImjwMQ_n33ot1f9hSnS9BRhv0i0qoUwnesZ2rwvzzZy-lrKSTI3PXZemLgcaU9b97y7sq7uls0VPTaSRoBD395-YJW62Hzb6YX3Q-b0i4IVapsZUujommbFcMJ-oVeLBWH0itctvuToJ4_9Vyn2bhiT-sfCiO1XZkC_cFn0A7SGwqjaG_dTgSYjTodZIAFL-qXfS_cFNIRtF-7wL2WBK2vi5XlmyOzcAoIynEsClp-mtc6eGY5syha2o4wP-hP9d7VZR7JzqnCGcJSlW1w8TtDhAHcZdSZ9gySM1awWtCbk532vE0cWpx3lp8RiSZX1nXMk-LuBRZ2_tJ8XVDvM2MRF8hEXNz2M71LHjAouRQaCgvmvEx0vOGJlbqOmkDRuBxzx0nwOt0c0JCEs5JXScWEmFOUpMqSKRwwh60eXt55v7d6pR_UALnaiZFOM-922zEIdnQqmWcZn9f5dM7oMc-Wq50jMBH83uOs4a_7qIOhgu9DqiwHekR" data-item-title="15 Calendriers De Bureau - 14.8x10.5 cm - Pixartprinting" data-item-thumb="https://imageproxy.eu.criteo.net/img/img?cq=256&amp;h=400&amp;m=0&amp;partner=9850&amp;q=80&amp;r=0&amp;u=https%3A%2F%2Fimages.ctfassets.net%2Fcma41nsiygxr%2F6eIDSV5vIm0G1ohhmFmyHr%2F621c7e0c1ab2c24e1d9bb6569505f0c0%2Fbutton_prod_table-calendars.jpg&amp;ups=1&amp;v=3&amp;w=400&amp;s=dtjJQNrvFo2r5_9PjL2PpKRP" data-item-syndicated="true" class="videoCube trc_spotlight_item origin-default thumbnail_top syndicatedItem textItem videoCube_2_child"><a attributionsrc="" title="15 Calendriers De Bureau - 14.8x10.5 cm - Pixartprinting" href="https://cat.nl3.eu.criteo.com/delivery/ckn.php" rel="nofollow noopener sponsored" target="_blank" class=" item-thumbnail-href " slot="thumbnail">
+                                                                <div class="thumbBlock_holder"><span class="thumbBlock style-GsQx5" id="style-GsQx5"><span class="thumbnail-overlay"></span><span class="branding">Pixartprinting</span><span class="static-text top-right"></span></span>
+                                                                    <div class="videoCube_aspect"></div>
+                                                                </div>
+                                                            </a><a attributionsrc="" title="15 Calendriers De Bureau - 14.8x10.5 cm - Pixartprinting" href="https://cat.nl3.eu.criteo.com/delivery/ckn.php" rel="nofollow noopener sponsored" target="_blank" class=" item-label-href "><span class="video-label-box trc-main-label "><span class="video-label video-title trc_ellipsis  style-lmRg6" slot="title" id="style-lmRg6">15 Calendriers De Bureau - 14.8x10.5 cm - Pixartprinting</span><span class="branding" slot="branding">Pixartprinting</span></span></a><a href="https://privacy.eu.criteo.com/adchoices?cppv=3&amp;cpp=NZb7aHtvZ1F2-uxhshDDCmkW7ibFbc0bGUq3f3A83Z45W6m3o7z4GcuU9CvfMIskj-JfvpNCnucxq3FUALWCZW1nrtvtvghxyFxykFdxUxXD0E6skDkKp9qcO9avQyGIKeoz7jPWIF46XKXVIptdGXIL-y0" target="_blank">
+                                                                <div class=" trc_user_adChoice_btn " title="Pourquoi dois-je voir cet article?"></div>
+                                                            </a></div>
+                                                        <div observeid="tbl-observe-2 tbl-observe-9" data-item-id="~~V1~~-3832962655276912942~~9yp0z44GpGYPaKlQA1kJix6_aG4WYZDPYAMRVVz3cBLpZyC7dGVdvKnSHsaHrNsFor4BFHsO6eE08LLg-CvdOB2tkbJ0H19gkwcUX8p5JFHbzsxfM0k_3_siGm-c3uadHxb2TLARSbyI5sXk6wrVoW4AYJif86jg1dO1saEEtuKo5SGaLDsYjtAIlNQXNPNERdbgwlJdnqyroTPEQNNEn1zWJGvWjwt4SjArVCI5lHPOM7ByQ8nZKJH5et-9I2u8" data-item-title="Si vous avez des acouphènes, Faites ceci immédiatement" data-item-thumb="http://cdn.taboola.com/libtrc/static/thumbnails/IMAGE_UPSCALER/EIU/6f0dda89-82cf-4c66-835c-9d727cdb27ac__P46uC4fK.jpg" data-item-syndicated="true" class="videoCube trc_spotlight_item origin-default thumbnail_top syndicatedItem textItem videoCube_3_child trc_excludable "><a attributionsrc="" title="Si vous avez des acouphènes, Faites ceci immédiatement" href="https://bredings-person.com/e092757c-ffad-45dd-8ddb-7aebee30bd3c" rel="nofollow noopener sponsored" target="_blank" class=" item-thumbnail-href " slot="thumbnail">
+                                                                <div class="thumbBlock_holder"><span class="thumbBlock style-w9IA6" id="style-w9IA6"><span class="thumbnail-overlay"></span><span class="branding">Tinnitus Research</span><span class="static-text top-right"></span></span>
+                                                                    <div class="videoCube_aspect"></div>
+                                                                </div>
+                                                            </a><a attributionsrc="" title="Si vous avez des acouphènes, Faites ceci immédiatement" href="https://bredings-person.com/e092757c-ffad-45dd-8ddb-7aebee30bd3c" rel="nofollow noopener sponsored" target="_blank" class=" item-label-href "><span class="video-label-box trc-main-label "><span class="video-label video-title trc_ellipsis  style-5eCKG" slot="title" id="style-5eCKG">Si vous avez des acouphènes, Faites ceci immédiatement</span><span class="branding" slot="branding">Tinnitus Research</span></span></a>
+                                                            <div class=" trc_user_exclude_btn " title="Supprimer ce contenu"></div>
+                                                            <div class=" trc_exclude_overlay trc_fade "></div>
+                                                            <div class=" trc_undo_btn ">Annuler</div>
+                                                        </div>
+                                                        <div observeid="tbl-observe-3 tbl-observe-10" data-item-id="~~V1~~4271880217008026881~~rf7oUUW-zk3ySItOUjFwr_ZNO0z1tEpCwQ-tPnhawFD7TKJy0RYs2yJMGvmh9dyJ8nBajoCFKvBqBybJ2egzxjBHD8_B47MehnHT42QzjeC3cI6mWYfZ5AtLUVrYEWTKjy1sQkL2RevOX7nLCN-4GKlE67z9c_akpKmkVcLvlvlU_--zLUQAdPgjB3gAVKFUQqvliIXwG6up5J--vMszxMtq9vGZjaYRGeOSnlN1rxKhwYJyCNzK39xQSV6UED7ga4gyR8OPHIRcBQ_AR3CHYcyhuOfpL6knRkQdmePzd4to_fyvBMdT7jsD_FdpUhDmjyXdeI1qSA-HAVaGMl4kKEWCIyrSwuEgG1nMz3MmR9tk60XJskiBBTUAXFuemxeQ_D7ubxoJqPhlBsVQsjxE0pd0ObEmBsjHIu3Op5NeWAGXIkq5rCD0OYy7SO_IyC0cmZeZmGznHmMZ0rFqIvvvHa6M8pMqwBtnK8Vq7z3ppTauMeEWS5A73HcB9oGoz1IXCTOhGVaJxKRY61YMtgoSJhIt_s76YhCQ7n-VEJMJz845T3brv3vrMFMX5x69jMKStgfzDSduMZmGmbGyYOtnR6QS9tuMwLS8jjZaBsdu8N8HNVlGXhHstYeB5uwSWwgsuYUEU4hB1xKg1Z9hYYPBlCoKkZWmk2CkMmexintT0wpEAsx4yhQpwTdsMsK9_jlRchQFilS8Mxr6nVYaeOClaEj0yZBA7w13HMR-Z7U5c3PNeEkRKUyj_vJNA9Wj55_C2vvZydJup9cVJk1WWrLHcFbsqi8s87PgUWy_RDv92oQr0fE6Uhf9p4yXxedjCMb2LX1Ap6BHBWPFWGU8w64gFpTRDlqnSfFfQpMXHYWHnnMj9tnLREJ-HTnk0VtB-aZa9gcGE7PP8uDCNwCYJ_TFkYGKB8EdpQ9R2qWK93qintvwrR0NeykrZwCKFk99eZ4LGeJLmT-h8tlz-h5QaArWp9wnwdHVtQQBDow0AMunsLyctinTwIR6rAbZpzXo89ophC0DD3ktbA7c8ye8lmwVYtb2xNIlu7BOH-dH6SWR9ij9KdYB8fzqfsqhvSScbWpmlZqhhrBl0CHcOCQKE4DGBa8aW0B-GsCqk1Omj-d0HFAe17E2oVPKa_WN63No2bM4Dw_18SRZk7krDgKowq5_sxX4EL1gWALZiMHUSVssjpcGOvVFHQm2WtENX2YUEAdpwRRKhOn-wVBWd3scfLGTZapQYPIi4XrxwE7oongxvT6ZCIQHxGwEuFVANGuNZ9rh3pc7afmdWAvD0ds-8hH_Lcv3eXgs0h1HQwyWJGTnvgSS0RG98KXYBjeKxtHF5sBBVpgM5AyeOHsl2KAyy_4spQ" data-item-title="50 Porte-clés Lampe Torche LED" data-item-thumb="https://imageproxy.eu.criteo.net/img/img?cq=256&amp;h=400&amp;m=0&amp;partner=23368&amp;q=80&amp;r=0&amp;u=https%3A%2F%2Fuploads.documents.cimpress.io%2Fv1%2Fuploads%2Fc6759c67-57e8-4658-b6ca-ac30b46e4cfd~110%2Foriginal%3Ftenant%3Dnational-pen&amp;ups=1&amp;v=3&amp;w=400&amp;s=yO-2ED12Rqck0sFGG0ra3vjf" data-item-syndicated="true" class="videoCube trc_spotlight_item origin-default thumbnail_top syndicatedItem textItem videoCube_4_child"><a attributionsrc="" title="50 Porte-clés Lampe Torche LED" href="https://cat.nl3.eu.criteo.com/delivery/ckn.php" rel="nofollow noopener sponsored" target="_blank" class=" item-thumbnail-href " slot="thumbnail">
+                                                                <div class="thumbBlock_holder"><span class="thumbBlock style-xdBlG" id="style-xdBlG"><span class="thumbnail-overlay"></span><span class="branding">Pens.com</span><span class="static-text top-right"></span></span>
+                                                                    <div class="videoCube_aspect"></div>
+                                                                </div>
+                                                            </a><a attributionsrc="" title="50 Porte-clés Lampe Torche LED" href="https://cat.nl3.eu.criteo.com/delivery/ckn.php" rel="nofollow noopener sponsored" target="_blank" class=" item-label-href "><span class="video-label-box trc-main-label "><span class="video-label video-title trc_ellipsis  style-KG8gx" slot="title" id="style-KG8gx">50 Porte-clés Lampe Torche LED</span><span class="branding" slot="branding">Pens.com</span></span></a><a href="https://privacy.eu.criteo.com/adchoices?cppv=3&amp;cpp=ZICmrntvZ1F2-uxhshDDCmkW7iZOm1rjt9DxPrqlW4jEVc6UH_V1evhGItwuNUa7PEaqFGpwD4C-jgH6Tzqe7M0YbYhoqf0kqwOSZsZKUDEj70xxoJMtg9IcSJpH3XffzEdGe7KJq4m7SlVk8tqRjNqQSheZVD77DPPfnQ3r_EcCOond" target="_blank">
+                                                                <div class=" trc_user_adChoice_btn " title="Pourquoi dois-je voir cet article?"></div>
+                                                            </a></div>
+                                                        <div observeid="tbl-observe-4 tbl-observe-11" data-item-id="~~V1~~-2733814003421014877~~oxuENpPZv4LwvOXmzA3ew9wTKHP9Za6wogS9uEwesLPnoZueAsnM0UTkqRiz-o8uV9GNaet_FWxUAZ9PPPsFwRVTo6RgUymk9uBVVomvlGPVu8f30VwON1BnX4x70kAsJ4WAG7TBSbkSvgoeVtgpPUXW4MJSXZ6sq6EzxEDTRJ9c1iRr1o8LeEowK1QiOZRzzjOwckPJ2SiR-XrfvSNrvA" data-item-title="Genoux rouillés à 50 ans : Le geste nº 1 à ne pas faire" data-item-thumb="http://cdn.taboola.com/libtrc/static/thumbnails/8493362bf8840871d7b4875eb9bdc2f7.png" data-item-syndicated="true" class="videoCube trc_spotlight_item origin-default thumbnail_top syndicatedItem textItem videoCube_5_child trc_excludable "><a attributionsrc="" title="Genoux rouillés à 50 ans : Le geste nº 1 à ne pas faire" href="https://shefence-citional.com/6c516c09-a0d7-47f0-a6b0-7b3fbbea1c15" rel="nofollow noopener sponsored" target="_blank" class=" item-thumbnail-href " slot="thumbnail">
+                                                                <div class="thumbBlock_holder"><span class="thumbBlock style-tYVfG" id="style-tYVfG"><span class="thumbnail-overlay"></span><span class="branding">Soutien articulaire </span><span class="static-text top-right"></span></span>
+                                                                    <div class="videoCube_aspect"></div>
+                                                                </div>
+                                                            </a><a attributionsrc="" title="Genoux rouillés à 50 ans : Le geste nº 1 à ne pas faire" href="https://shefence-citional.com/6c516c09-a0d7-47f0-a6b0-7b3fbbea1c15" rel="nofollow noopener sponsored" target="_blank" class=" item-label-href "><span class="video-label-box trc-main-label "><span class="video-label video-title trc_ellipsis  style-D2W41" slot="title" id="style-D2W41">Genoux rouillés à 50 ans : Le geste nº 1 à ne pas faire</span><span class="branding" slot="branding">Soutien articulaire </span></span></a>
+                                                            <div class=" trc_user_exclude_btn " title="Supprimer ce contenu"></div>
+                                                            <div class=" trc_exclude_overlay trc_fade "></div>
+                                                            <div class=" trc_undo_btn ">Annuler</div>
+                                                        </div>
+                                                        <div observeid="tbl-observe-5 tbl-observe-12" data-item-id="~~V1~~5661409758851036994~~DYToZLRNjl8ET_Jn9RbF8cMUDZctXrrInSyxGJijhDrMa4tB0eO0O2k_1RH9-peSJCM26C8diHmJzDLFuqYdZKuY7iLnSOXqaLSCVC0jdgRCYnKdj6R57BWLrHTQ_rWTTS8Maux2jWC1gRU3nx5A7qYrUxfsxaffgxnLdeUSfQM" data-item-title="Mal au genou après 50 ans ? Faites ceci 2 fois par jour (regardez ça)" data-item-thumb="http://cdn.taboola.com/libtrc/static/thumbnails/c3d8bb2c695d0a5d7f94ca2811647f5f.jpg" data-item-syndicated="true" class="videoCube trc_spotlight_item origin-default thumbnail_top syndicatedItem textItem videoCube_6_child trc_excludable "><a attributionsrc="" title="Mal au genou après 50 ans ? Faites ceci 2 fois par jour (regardez ça)" href="https://vl.linkinfosante.com/1cdec257-d9be-4403-9607-e7b9041c3666" rel="nofollow noopener sponsored" target="_blank" class=" item-thumbnail-href " slot="thumbnail">
+                                                                <div class="thumbBlock_holder"><span class="thumbBlock style-oKQhT" id="style-oKQhT"><span class="thumbnail-overlay"></span><span class="branding">Science Articulations</span><span class="static-text top-right"></span></span>
+                                                                    <div class="videoCube_aspect"></div>
+                                                                </div>
+                                                            </a><a attributionsrc="" title="Mal au genou après 50 ans ? Faites ceci 2 fois par jour (regardez ça)" href="https://vl.linkinfosante.com/1cdec257-d9be-4403-9607-e7b9041c3666" rel="nofollow noopener sponsored" target="_blank" class=" item-label-href "><span class="video-label-box trc-main-label "><span class="video-label video-title trc_ellipsis  style-fjDrf" slot="title" id="style-fjDrf">Mal au genou après 50 ans ? Faites ceci 2 fois par jour (regardez ça)</span><span class="branding" slot="branding">Science Articulations</span></span></a>
+                                                            <div class=" trc_user_exclude_btn " title="Supprimer ce contenu"></div>
+                                                            <div class=" trc_exclude_overlay trc_fade "></div>
+                                                            <div class=" trc_undo_btn ">Annuler</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="trc-widget-footer">
+                                                <div class="logoDiv link-attribution "><a class="trc_desktop_attribution_link trc_attribution_position_bottom" rel="nofollow sponsored noopener" href="https://popup.taboola.com/fr/?template=colorbox&amp;utm_source=lagardere-directvelo&amp;utm_medium=referral&amp;utm_content=thumbnails-a:Below Article Thumbnails:" target="_blank"><span>par Taboola</span></a><a class="trc_mobile_attribution_link trc_attribution_position_bottom" rel="nofollow sponsored noopener" href="https://popup.taboola.com/fr/?template=colorbox&amp;utm_source=lagardere-directvelo&amp;utm_medium=referral&amp;utm_content=thumbnails-a:Below Article Thumbnails:" target="_blank"><span>par Taboola</span></a></div>
+                                            </div>
+                                            <div class="trc_clearer"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <section class="user-comments no-comment">
+                            <header role="tab" id="user-comments-header" class="user-comments-header collapsed" data-toggle="collapse" href="#user-comments-body" aria-expanded="false" aria-controls="user-comments-body">
+                                <h2 class="user-comments-title"><i class="icon icon-comments"></i> Commentaires <strong class="user-comments-count">(<span class="user-comments-count-value">0</span>)</strong></h2>
+                            </header>
+                            <div id="user-comments-body" class="user-comments-body collapse style-ciZHY" role="tabpanel" aria-labelledby="user-comments-header" aria-expanded="false">
+                                <div class="user-comments-body-inner">
+                                    <div class="user-comments-form">
+                                        <a href="#" class="user-comments-add btn green disabled" data-toggle="tooltip" title="" data-original-title="Connectez-vous pour ajouter un commentaire.">Ajouter un commentaire</a>
+                                    </div>
+                                    <div class="nav-slashed">
+                                        <ul class="nav-list" role="tablist">
+                                            <li class="nav-item active"><a href="#comments-latest" class="nav-link" data-toggle="tab" role="tab">Derniers commentaires</a></li>
+                                            <li class="nav-item"><a href="#comments-best" class="nav-link" data-toggle="tab" role="tab">Meilleurs commentaires</a></li>
+                                            <li class="nav-item"><a href="#comments-expert" class="nav-link" data-toggle="tab" role="tab">Commentaires Expert</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-content">
+                                        <section id="comments-latest" class="tab-pane active fade in" data-order="latest" role="tabpanel">
+                                            <h3 class="hidden">Derniers commentaires</h3>
+                                            <div class="slidable vertical disabled empty">
+                                                <p class="loading-message"><i class="fa fa-circle-o-notch fa-spin text-gray"></i>&nbsp;&nbsp;Chargement en cours...</p>
+                                                <div class="slidable-content style-aV7t9" id="style-aV7t9">
+                                                    <p class="user-comments-empty empty-message">Soyez le premier à déposer un commentaire !</p>
+                                                </div>
+                                                <div class="slidable-nav wide style-rsqAJ" id="style-rsqAJ">
+                                                    <a class="btn-arrow prev disabled">&lt;</a>
+                                                    <a class="btn-arrow next disabled">&gt;</a>
+                                                </div>
+                                                <div class="slidable-tmp"></div>
+                                            </div>
+                                        </section>
+                                        <section id="comments-best" class="tab-pane fade" data-order="best" role="tabpanel">
+                                            <h3 class="hidden">Meilleurs commentaires</h3>
+                                            <div class="slidable vertical disabled empty">
+                                                <p class="loading-message"><i class="fa fa-circle-o-notch fa-spin text-gray"></i>&nbsp;&nbsp;Chargement en cours...</p>
+                                                <div class="slidable-content style-o8mgo" id="style-o8mgo">
+                                                    <p class="user-comments-empty empty-message">Soyez le premier à déposer un commentaire !</p>
+                                                </div>
+                                                <div class="slidable-nav wide style-Igvd8" id="style-Igvd8">
+                                                    <a class="btn-arrow prev disabled">&lt;</a>
+                                                    <a class="btn-arrow next disabled">&gt;</a>
+                                                </div>
+                                                <div class="slidable-tmp"></div>
+                                            </div>
+                                        </section>
+                                        <section id="comments-expert" class="tab-pane fade" data-order="expert" role="tabpanel">
+                                            <h3 class="hidden">Commentaires Expert</h3>
+                                            <div class="slidable vertical disabled empty">
+                                                <p class="loading-message"><i class="fa fa-circle-o-notch fa-spin text-gray"></i>&nbsp;&nbsp;Chargement en cours...</p>
+                                                <div class="slidable-content style-ANBZl" id="style-ANBZl">
+                                                    <p class="user-comments-empty empty-message">Soyez le premier à déposer un commentaire !</p>
+                                                </div>
+                                                <div class="slidable-nav wide style-8ZxRf" id="style-8ZxRf">
+                                                    <a class="btn-arrow prev disabled">&lt;</a>
+                                                    <a class="btn-arrow next disabled">&gt;</a>
+                                                </div>
+                                                <div class="slidable-tmp"></div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                    <p class="user-comments-empty empty-message">Soyez le premier à déposer un commentaire !</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="sidebar">
+                        <div class="search-bar rider-search-bar">
+                            <i class="icon icon-magnifier"></i>
+                            <div class="autocomplete ">
+                                <span class="twitter-typeahead style-dgegB" id="style-dgegB"><input type="text" class="typeahead tt-hint style-H3EUr" readonly="" autocomplete="off" spellcheck="false" tabindex="-1" dir="ltr" id="style-H3EUr"><input type="text" placeholder="Rechercher un autre coureur" class="typeahead tt-input style-c1o9n" autocomplete="off" spellcheck="false" dir="auto" id="style-c1o9n">
+                                    <pre aria-hidden="true" id="style-VQBE5" class="style-VQBE5"></pre>
+                                    <div class="tt-menu style-3yA7n" id="style-3yA7n">
+                                        <div class="tt-dataset tt-dataset-0"></div>
+                                        <p class="tt-empty-message">Aucun résultat...</p>
+                                    </div><i class="fa fa-refresh fa-spin"></i>
+                                </span>
+                                <i class="fa fa-info-circle" data-toggle="tooltip" title="" data-original-title="La recherche a été limitée, veuillez affiner votre recherche pour voir les autres résultats."></i>
+                            </div>
+                        </div>
+                        <div class="ad">
+                            <div class="akcelo-wrapper akcelo-wrapper-label akcelo-placeholder akcelo-desktop akcelo-loaded style-Fc1t2" data-ad-text="PUBLICITE" data-placeholder-text="Ad" id="style-Fc1t2">
+                                <div id="DV_Pave_Haut" data-akcelo-loaded="1" data-google-query-id="CJX-24CvvYMDFQBTpAQdUOgIKQ">
+                                    <div id="google_ads_iframe_/1005985/DV_Pave_Haut_0__container__" class="style-IjeJe"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <aside class="block" role="complementary">
+                            <div class="rider-news blue" data-rider="24643">
+                                <h2 class="lbl-large blue">Dernières infos du coureur</h2>
+                                <div class="overlay"></div>
+                                <div class="slidable vertical">
+                                    <p class="loading-message"><i class="fa fa-circle-o-notch fa-spin text-gray"></i>&nbsp;&nbsp;Chargement en cours...</p>
+                                    <div class="slidable-content style-zfsrS" id="style-zfsrS">
+                                        <ul class="slidable-slides" data-per-page="6" data-nb-pages="5">
+                                            <li class="news-item" data-page="">
+                                                <time datetime="2023-01-22CET23:45:20">22/01</time>
+                                                <a href="/actualite/102131/cyclo-cross-dantony-classements" title="Cyclo-cross d'Antony : Classements" class="news-item-title"> <strong>Résultats : </strong>Cyclo-cross d'Antony </a>
+                                            </li>
+                                            <li class="news-item">
+                                                <time datetime="2022-11-07CET09:45:08">07/11</time>
+                                                <a href="/actualite/100864/cyclo-cross-de-bessancourt-classements" title="Cyclo-cross de Bessancourt : Classements" class="news-item-title"> <strong>Résultats : </strong>Cyclo-cross de Bessancourt </a>
+                                            </li>
+                                            <li class="news-item">
+                                                <time datetime="2022-10-26CEST07:05:00">26/10</time>
+                                                <a href="/actualite/100578/ronan-auffret-c-est-motivant" title="Ronan Auffret : « C’est motivant »" class="news-item-title"> Ronan Auffret : « C’est motivant » </a>
+                                            </li>
+                                            <li class="news-item">
+                                                <time datetime="2022-10-10CEST13:30:24">10/10</time>
+                                                <a href="/actualite/100258/cyclo-cross-dyrouerre-classements" title="Cyclo-cross d'Yrouerre : Classements" class="news-item-title"> <strong>Résultats : </strong>Cyclo-cross d'Yrouerre </a>
+                                            </li>
+                                            <li class="news-item">
+                                                <time datetime="2021-12-20CET17:52:59">20/12</time>
+                                                <a href="/actualite/93469/cyclo-cross-de-gennevilliers-classements" title="Cyclo-cross de Gennevilliers : Classements" class="news-item-title"> <strong>Résultats : </strong>Cyclo-cross de Gennevilliers </a>
+                                            </li>
+                                            <li class="news-item">
+                                                <time datetime="2021-09-28CEST12:38:49">28/09</time>
+                                                <a href="/actualite/91570/cyclo-cross-de-la-ferte-gaucher-classements" title="Cyclo-cross de la Ferté-Gaucher : Classements" class="news-item-title"> <strong>Résultats : </strong>Cyclo-cross de la Ferté-Gaucher </a>
+                                            </li>
+                                            <li class="news-item" data-page="">
+                                                <time datetime="2021-01-13CET06:05:00">13/01</time>
+                                                <a href="/actualite/86050/ronan-auffret-vu-mes-sensations-j-aurais-pu-mieux-faire" title="Ronan Auffret : « Vu mes sensations, j’aurais pu mieux faire »" class="news-item-title"> Ronan Auffret : « Vu mes sensations, j’aurais pu mieux faire » </a>
+                                            </li>
+                                            <li class="news-item">
+                                                <time datetime="2020-12-30CET20:37:00">30/12</time>
+                                                <a href="/actualite/85863/la-grosse-semaine-de-ronan-auffret" title="La grosse semaine de Ronan Auffret" class="news-item-title"> La grosse semaine de Ronan Auffret </a>
+                                            </li>
+                                            <li class="news-item">
+                                                <time datetime="2019-12-23CET18:34:03">23/12</time>
+                                                <a href="/actualite/79751/ronan-auffret-a-lheure-de-la-preparation" title="Ronan Auffret à l'heure de la préparation" class="news-item-title"> Ronan Auffret à l'heure de la préparation </a>
+                                            </li>
+                                            <li class="news-item">
+                                                <time datetime="2019-12-22CET16:48:36">22/12</time>
+                                                <a href="/actualite/79746/cyclo-cross-de-montrichard-classement" title="Cyclo-cross de Montrichard : Classement" class="news-item-title"> <strong>Résultats : </strong>Cyclo-cross de Montrichard </a>
+                                            </li>
+                                            <li class="news-item">
+                                                <time datetime="2019-12-07CET07:06:00">07/12</time>
+                                                <a href="/actualite/79424/ronan-auffret-ramener-le-titre-a-la-maison" title="Ronan Auffret : « Ramener le titre à la maison »" class="news-item-title"> Ronan Auffret : « Ramener le titre à la maison » </a>
+                                            </li>
+                                            <li class="news-item">
+                                                <time datetime="2019-08-31CEST16:47:00">31/08</time>
+                                                <a href="/actualite/77083/le-vc-rouen-76-a-commence-son-recrutement" title="Le VC Rouen 76 a commencé son recrutement" class="news-item-title"> Le VC Rouen 76 a commencé son recrutement </a>
+                                            </li>
+                                            <li class="news-item" data-page="">
+                                                <time datetime="2019-06-16CEST23:25:00">16/06</time>
+                                                <a href="/actualite/74953/championnat-d-ile-de-france-juniors-classement" title="Championnat d’Île-de-France - Juniors : Classement" class="news-item-title"> <strong>Résultats : </strong>Championnat d’Île-de-France - Juniors </a>
+                                            </li>
+                                            <li class="news-item">
+                                                <time datetime="2019-01-13CET12:45:00">13/01</time>
+                                                <a href="/actualite/71639/ronan-auffret-je-peux-etre-fier-de-moi" title="Ronan Auffret : « Je peux être fier de moi »" class="news-item-title"> Ronan Auffret : « Je peux être fier de moi » </a>
+                                            </li>
+                                            <li class="news-item">
+                                                <time datetime="2018-12-30CET13:00:37">30/12</time>
+                                                <a href="/actualite/71402/ronan-auffret-je-ne-mattendais-pas-a-ca" title="Ronan Auffret : « Je ne m'attendais pas à ça »" class="news-item-title"> Ronan Auffret : « Je ne m'attendais pas à ça » </a>
+                                            </li>
+                                            <li class="news-item">
+                                                <time datetime="2018-12-26CET11:50:00">26/12</time>
+                                                <a href="/actualite/71339/ronan-auffret-cest-deja-ca" title="Ronan Auffret : « C'est déjà ça... »" class="news-item-title"> Ronan Auffret : « C'est déjà ça... » </a>
+                                            </li>
+                                            <li class="news-item">
+                                                <time datetime="2018-12-10CET08:14:00">10/12</time>
+                                                <a href="/actualite/71083/ronan-auffret-a-fait-preuve-de-patience" title="Ronan Auffret a fait preuve de patience" class="news-item-title"> Ronan Auffret a fait preuve de patience </a>
+                                            </li>
+                                            <li class="news-item">
+                                                <time datetime="2018-11-07CET07:05:00">07/11</time>
+                                                <a href="/actualite/70518/ronan-auffret-jarrive-au-top-de-ma-forme" title="Ronan Auffret : « J'arrive au top de ma forme »" class="news-item-title"> Ronan Auffret : « J'arrive au top de ma forme » </a>
+                                            </li>
+                                            <li class="news-item" data-page="">
+                                                <time datetime="2018-01-11CET21:05:00">11/01</time>
+                                                <a href="/actualite/63488/ronan-auffret-choisit-sa-pression" title="Ronan Auffret choisit sa pression" class="news-item-title"> Ronan Auffret choisit sa pression </a>
+                                            </li>
+                                            <li class="news-item">
+                                                <time datetime="2017-12-03CET12:30:56">03/12</time>
+                                                <a href="/actualite/62900/cc-coupe-de-france-juniors-les-reactions" title="CC - Coupe de France - Juniors : Les réactions" class="news-item-title"> <strong>Réactions : </strong>CC - Coupe de France - Juniors </a>
+                                            </li>
+                                            <li class="news-item">
+                                                <time datetime="2017-11-11CET10:28:00">11/11</time>
+                                                <a href="/actualite/62470/ronan-auffret-a-le-moral-au-beau-fixe" title="Ronan Auffret a le moral au beau fixe" class="news-item-title"> Ronan Auffret a le moral au beau fixe </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="slidable-nav blue style-Ja3UB" id="style-Ja3UB">
+                                        <a class="btn-arrow prev disabled">&lt;</a>
+                                        <a class="btn-arrow next">&gt;</a>
+                                    </div>
+                                    <div class="slidable-tmp"></div>
+                                </div>
+                                <footer>
+                                    <a href="/actualites/coureur/24643/ronan-auffret" class="footer-link">Toute l'info du coureur</a>
+                                </footer>
+                            </div>
+                        </aside>
+                        <div class="ad vertical">
+                        </div>
+                        <div class="block">
+                            <section class="photos">
+                                <header class="title-lined">
+                                    <div class="title-lined-inner spacer">
+                                        <h2 class="title-zoom">
+                                            <i class="icon icon-photos-empty"></i>
+                                            <small class="text-blue">Dernières</small><br>
+                                            <strong>Photos</strong>
+                                        </h2>
+                                    </div>
+                                </header>
+                                <ul class="album-photos cols-2 cols-sm-2 glue ">
+                                    <li class="col first">
+                                        <div class="photo-teaser">
+                                            <a href="#photo-186313" rel="photo" class="photo-teaser-link" data-next="182305">
+                                                <figure class="photo-teaser-thumbnail centered">
+                                                    <img src="./images/63c58ad427e3d_thumb.jpg" alt="" width="auto" height="auto" loading="lazy" id="style-jfpie" class="style-jfpie">
+                                                </figure>
+                                                <div class="photo-teaser-overlay"></div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="col ">
+                                        <div class="photo-teaser">
+                                            <a href="#photo-182305" rel="photo" class="photo-teaser-link" data-prev="186313" data-next="182291">
+                                                <figure class="photo-teaser-thumbnail centered">
+                                                    <img src="./images/638ca93bdeb9c_thumb.JPG" alt="" width="auto" height="auto" loading="lazy" id="style-2RKmZ" class="style-2RKmZ">
+                                                </figure>
+                                                <div class="photo-teaser-overlay"></div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="col ">
+                                        <div class="photo-teaser">
+                                            <a href="#photo-182291" rel="photo" class="photo-teaser-link" data-prev="182305" data-next="179825">
+                                                <figure class="photo-teaser-thumbnail centered">
+                                                    <img src="./images/638ca92eac7dd_thumb.JPG" alt="" width="auto" height="auto" loading="lazy" id="style-PxgCQ" class="style-PxgCQ">
+                                                </figure>
+                                                <div class="photo-teaser-overlay"></div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li class="col ">
+                                        <div class="photo-teaser">
+                                            <a href="#photo-179825" rel="photo" class="photo-teaser-link" data-prev="182291">
+                                                <figure class="photo-teaser-thumbnail centered">
+                                                    <img src="./images/637b41081e652_thumb.JPG" alt="" width="auto" height="auto" loading="lazy" id="style-iiJhz" class="style-iiJhz">
+                                                </figure>
+                                                <div class="photo-teaser-overlay"></div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <footer>
+                                    <a href="/album/coureur/24643/ronan-auffret" class="footer-link">Voir toutes les photos</a>
+                                </footer>
+                            </section>
+                        </div>
+                        <div class="ad">
+                            <div class="akcelo-wrapper akcelo-wrapper-label akcelo-placeholder akcelo-desktop akcelo-loaded style-5lllZ" data-ad-text="PUBLICITE" data-placeholder-text="Ad" id="style-5lllZ">
+                                <div id="DV_Pave_Bas" data-akcelo-loaded="1" data-google-query-id="CJjn7_CuvYMDFQeaJwIdiO0KlA" class="style-OvVYX"><iframe frameborder="0" width="300" height="600" id="18111bca50dd9daf" scrolling="no" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" allowtransparency="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"></iframe></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+    <footer id="footer" class="home-ad" role="contentinfo">
+        <div class="ad">
+            <div class="akcelo-wrapper akcelo-wrapper-label akcelo-placeholder akcelo-desktop akcelo-loaded style-fQtzb" data-ad-text="PUBLICITE" data-placeholder-text="Ad" id="style-fQtzb">
+                <div id="DV_Megaban_Bas" data-akcelo-loaded="1" data-google-query-id="CKzq7vCuvYMDFR6TJwIdzO4Jrg" class="style-MGsVf"><iframe frameborder="0" width="728" height="90" id="16994fcd0026ac1b" scrolling="no" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" allowtransparency="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"></iframe></div>
+            </div>
+            <div id="style-EpVhk" class="style-EpVhk">
+                <div id="style-1qTgr" class="style-1qTgr">
+                    <div id="DV_Megaban_Bas"></div>
+                </div>
+            </div>
+        </div>
+        <div class="links">
+            <div class="cols-1-3 no-cols-sm">
+                <div class="partners col">
+                    <div class="hidden">Partenaires</div>
+                    <ul class="partners-list">
+                    </ul>
+                </div>
+                <div class="nav-wrapper col">
+                    <nav role="navigation">
+                        <h2 class="hidden">Menu secondaire</h2>
+                        <div class="cols-4">
+                            <div class="nav-section col">
+                                <div class="nav-subtitle live">Directs</div>
+                                <ul>
+                                    <li class="first menu-item"><a href="/directs#next-events" class="menu-link"> Prochains directs </a></li>
+                                    <li class="last menu-item"><a href="/directs#past-events" class="menu-link"> Directs archivés </a></li>
+                                </ul>
+                                <ul class="news-links">
+                                    <li class="first menu-item"><a href="/actualites" class="nav-subtitle menu-link"> Actualités </a></li>
+                                    <li class="menu-item"><a href="/actualites/categorie/1/resultats" class="nav-subtitle menu-link"> Résultats </a></li>
+                                    <li class="last menu-item"><a href="/actualites/categorie/2/engages" class="nav-subtitle menu-link"> Engagés / Partants </a></li>
+                                </ul>
+                                <div class="nav-subtitle">Disciplines</div>
+                                <ul>
+                                    <li class="first menu-item"><a href="/actualites/discipline/1/route" class="menu-link"> Route </a></li>
+                                    <li class="menu-item"><a href="/actualites/discipline/2/cyclo-cross" class="menu-link"> Cyclo-cross </a></li>
+                                    <li class="last menu-item"><a href="/actualites/discipline/3/piste" class="menu-link"> Piste </a></li>
+                                </ul>
+                            </div>
+                            <div class="nav-section col">
+                                <div class="nav-subtitle">Saison</div>
+                                <ul>
+                                    <li class="first menu-item"><a href="/calendrier" class="menu-link"> Calendrier </a></li>
+                                    <li class="menu-item"><a href="/coureurs" class="menu-link"> Coureurs </a></li>
+                                    <li class="menu-item"><a href="/equipes" class="menu-link"> Équipes </a></li>
+                                    <li class="last menu-item"><a href="/mutations" class="menu-link"> Mutations </a></li>
+                                </ul>
+                                <div class="nav-subtitle">Rubriques</div>
+                                <ul>
+                                    <li class="first menu-item"><a href="/actualites/categorie/70/la-grande-interview" class="menu-link"> La Grande Interview </a></li>
+                                    <li class="menu-item"><a href="/actualites/categorie/76/on-a-retrouve" class="menu-link"> On a retrouvé </a></li>
+                                    <li class="menu-item"><a href="/actualites/categorie/85/bon-a-savoir" class="menu-link"> Bon à savoir </a></li>
+                                    <li class="menu-item"><a href="/actualites/categorie/130/mavic" class="menu-link"> Mavic </a></li>
+                                    <li class="menu-item"><a href="/actualites/categorie/133/look" class="menu-link"> Look </a></li>
+                                    <li class="last menu-item"><a href="/actualites/categorie/135/team-vercors" class="menu-link"> Team Vercors </a></li>
+                                </ul>
+                            </div>
+                            <div class="nav-section col">
+                                <div class="nav-subtitle">Challenges</div>
+                                <ul>
+                                    <li class="first menu-item"><a href="/challenge/coureur" class="menu-link"> Élites </a></li>
+                                    <li class="menu-item"><a href="/challenge/coureur/espoirs" class="menu-link"> Espoirs </a></li>
+                                    <li class="menu-item"><a href="/challenge/coureur/juniors" class="menu-link"> Juniors </a></li>
+                                    <li class="last menu-item"><a href="/challenge/coureur/dames" class="menu-link"> Dames </a></li>
+                                </ul>
+                            </div>
+                            <div class="nav-section col">
+                                <div class="nav-subtitle">Médias</div>
+                                <ul>
+                                    <li class="first menu-item"><a href="/videos" class="menu-link"> Vidéos </a></li>
+                                    <li class="last menu-item"><a href="/photos" class="menu-link"> Photos </a></li>
+                                </ul>
+                                <div class="nav-subtitle">Livres DirectVelo</div>
+                                <ul>
+                                    <li class="first menu-item"><a href="https://boutique.directvelo.com" rel="external" class="menu-link"> «&nbsp;Cyclisme Amateur&nbsp;» </a></li>
+                                    <li class="last menu-item"><a href="/page/7/boutique-directvelo" class="menu-link"> Tous nos livres </a></li>
+                                </ul>
+                                <div class="nav-subtitle">DirectVelo</div>
+                                <ul>
+                                    <li class="first menu-item"><a href="/notre-equipe" class="menu-link"> Notre équipe </a></li>
+                                    <li class="menu-item"><a href="/nos-valeurs" class="menu-link"> Nos valeurs </a></li>
+                                    <li class="last menu-item"><a href="/page/5/emploi" class="menu-link"> Emploi </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <picture class="site-mascot">
+                <img src="./images/mascotte-217.png" width="217" height="112" loading="lazy" alt="Mascotte DirectVelo">
+            </picture>
+        </div>
+        <p class="copyright">© DirectVelo - Tous droits réservés. <a href="/mentions-legales">Mentions légales</a> - <a href="/cgv">CGV</a></p>
     </footer>
-  </body>
+</div>
+   </body>
 </html>
