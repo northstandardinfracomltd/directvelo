@@ -2460,8 +2460,8 @@ figure img  {
 } 
 
 figure img  { 
-    width: auto !important; 
-    height: 100% !important;
+    width: auto; 
+    height: 100%;
 } 
 
 #rider .palmares .icon-palmares  { 
@@ -4417,4 +4417,11 @@ input[type="submit"] {
       transform: rotate(359deg); 
   }  
 
+} 
+
+
+
+.imgflag { 
+    margin-top: 0px;
+    margin-bottom: -6px;
 } 
