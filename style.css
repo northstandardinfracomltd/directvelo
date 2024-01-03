@@ -2460,8 +2460,8 @@ figure img  {
 } 
 
 figure img  { 
-    width: 100%; 
-    height: auto;
+    width: auto !important; 
+    height: 100% !important;
 } 
 
 #rider .palmares .icon-palmares  { 
